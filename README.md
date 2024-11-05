@@ -1,4 +1,4 @@
-# 🍔 Food Delivery System
+# 🍔 FoodBytes
 ## **I. Project Overview**
 The Food Ordering System is a Java console application allowing users to register, log in, and place food orders. Users can explore restaurant menus, add items to a cart, and complete the checkout process. The application includes user authentication and a small database of users, food items, and orders.
 
