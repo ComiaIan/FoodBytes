@@ -1,21 +1,19 @@
-Food Delivery System
-I. Project Overview
-The Food Delivery System is a Java-based application that allows users to register, log in, and place orders for food items. It provides a simple and interactive console interface for users to explore a menu, add items to their cart, and check out. This system is designed with a focus on user authentication and session management, ensuring that only registered users can access the ordering features.
+# 🍔 Food Delivery System
+## **I. Project Overview**
+The Food Delivery System is a Java console application allowing users to register, log in, and place food orders. Users can explore restaurant menus, add items to a cart, and complete the checkout process. The application includes user authentication and a small database of users, food items, and orders.
 
-The project integrates a small database of users and food items, and follows a structured approach to handle user requests, making it an ideal project to demonstrate object-oriented programming (OOP) principles in action.
+This project showcases essential Object-Oriented Programming (OOP) principles in Java and demonstrates a simple yet scalable structure for future expansions.
 
-II. Application of OOP Principles
-This project incorporates core Object-Oriented Programming (OOP) principles, as described below:
+## **II. Application of OOP Principles**
+This project showcases core OOP principles as follows:
 
-Encapsulation: The project uses classes such as User, MenuItem, and Cart to encapsulate related data and behavior. These classes provide public methods to interact with the data, while internal data fields are kept private to ensure control over how they are accessed or modified.
+<ins>**Encapsulation:** </ins> Classes like User, MenuItem, and Cart encapsulate related data and functionality. Data fields are private, and access is controlled through public methods.
 
-Abstraction: Complex operations like user authentication, cart management, and database interactions are abstracted into dedicated classes (UserService, CartService). These abstractions make it easier to understand and manage the program’s high-level logic.
+<ins>**Abstraction:**</ins> Functionalities such as user authentication, cart management, and database interactions are abstracted into dedicated service classes (UserService, CartService). This makes the code modular and easier to maintain.
 
-Inheritance: If there are specific types of users or menu items (like premium users or discounted items), these can inherit from base classes like User or MenuItem. Currently, the project demonstrates a foundational structure that can be extended with inheritance.
+<ins>**Inheritance:**</ins> The project is structured to support future enhancements, such as adding specific types of users (e.g., premium users). Currently, inheritance can be extended for user roles or item categories.
 
-Polymorphism: Polymorphism is utilized in the project through method overloading and interface implementations (if needed). The project structure allows for future scalability, such as introducing different types of users or payment methods that follow a common interface.
+<ins>**Polymorphism:**</ins> Through potential method overloading and interface-based implementations, polymorphism enables the addition of diverse user types or payment methods, increasing flexibility and scalability.
 
-III. Integration of the Sustainable Development Goal (SDG)
-This project aligns with SDG 12: Responsible Consumption and Production. By implementing a food delivery system, the application encourages mindful ordering and reduces food waste. Users are encouraged to order only what they need, with features like cart management allowing them to review and adjust their orders before finalizing them.
-
-The project can also be extended to track ordering patterns and suggest portion sizes or sustainable meal options, further supporting SDG 12. Additionally, it may integrate data on carbon footprint per order in future updates, contributing to awareness about responsible consumption.
+## III. Integration of the Sustainable Development Goal (SDG)
+The project aligns with <ins>**SDG 12: Responsible Consumption and Production**</ins> by encouraging mindful food ordering to reduce waste. Users are able to review their cart and order only what they need. Future updates can include tracking ordering patterns or suggesting sustainable meal options, further contributing to responsible consumption practices.
