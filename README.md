@@ -37,3 +37,22 @@ This project showcases core OOP principles as follows:
 
 ## III. Integration of the Sustainable Development Goal (SDG)
 The project aligns with <ins>**SDG 12: Responsible Consumption and Production**</ins> by encouraging mindful food ordering to reduce waste. Users are able to review their cart and order only what they need. Future updates can include tracking ordering patterns or suggesting sustainable meal options, further contributing to responsible consumption practices.
+
+## IV. Instructions for Running the Program
+### Prerequisites
+- JDK 8 or higher
+- MySQL Workbench for executing the SQL Query
+- IDE (I used Intellij IDEA)
+
+### Setup Instructions
+1. Clone the Repository
+2. Databse Setup
+   - Execute the FoodBytes_Query.sql on your MySQL Workbench
+   - Update the URL, USERNAME and PASSWORD on the Databse Class
+  
+3. Using the Application
+   - **Register:** You can create your own account but there is a preloaded user (Username: ian, Password: 12345)
+   - **Login:** Login with using your username and password or use the preloaded user.
+   - **Browse and Add to Cart:** Select food items and add them to your cart.
+   - **Checkout:** Review and confirm your order to complete the transaction.
+
