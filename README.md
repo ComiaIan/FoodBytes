@@ -18,17 +18,13 @@ This project showcases core OOP principles as follows:
 - **Main Class with User Interaction:** The Main class uses abstraction by interacting with the user through high-level methods like authenticateUser(), addToCart(), and checkout(). These methods encapsulate multiple steps, such as scanning inputs, handling SQL exceptions, and interacting with other objects.
 
 ### <ins>**Inheritance:**</ins> 
-- **User Subclasses:** If the system were to support different types of users (e.g., Customer, Admin, or RestaurantOwner), each could inherit from a base User class. The base User class contains shared attributes like username and password, while subclasses define specific behaviors. An Admin class might have additional permissions, while a Customer class could have a viewCart() method.
-- **FoodItem Subclasses:** Similarly, if there were different types of food items (e.g., Beverage, MainCourse, Dessert), each could inherit from a base FoodItem class and add unique fields or methods specific to that type (e.g., Beverage might have an attribute for size).
-
-**NOTE:** Although inheritance is not explicitly used in the code, designing the classes with a possible hierarchy would improve flexibility.
+- **User Subclasses:** The system supports different types of users (e.g., Customer, Admin), each inherits from a base User class. The base User class contains shared attributes like username and password, while subclasses define specific behaviors. An Admin class might have additional permissions, while a Customer class could have a viewCart() method.
+- **FoodItem Subclasses:** If there were different types of food items (e.g., Beverage, MainCourse, Dessert), each could inherit from a base FoodItem class and add unique fields or methods specific to that type (e.g., Beverage might have an attribute for size) similar to how inheritance is used in the User subclasses.
 
 ### <ins>**Polymorphism:**</ins> 
 - **Overloading Methods:** There could be multiple versions of the addToCart() method, one that takes an itemId and quantity, and another that takes an Item object.
-- **Dynamic Method Dispatch:** If a user type hierarchy were to be implemented, polymorphism allows the autenthicateUser() method to return different user types based on credentials. A method like viewCat(), restaurantOwnerPanel() or accessAdminPanel() could behave differently depending whether the user's type is a Customer, restaurantOwner or Admin.
-
-**NOTE:** While direct polymorphism isn't heavily used in the code, it could be incorporated as the system grows to support different user types and different item types.
-
+- **Dynamic Method Dispatch:** Polymorphism allows the autenthicateUser() method to return different user types based on credentials.
+  
 ### How These OOP Principles Benefit the Project
 - **Readability:** Encapsulation and abstraction keeps the code modular and easier to udnerstand.
 - **Reusability:** Inheritance and polymorphism promote code reuse, making the project easier to extend.
